@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Jost&family=Vollkorn&display=swap');
+*{
+    margin: 0;padding: 0;
+    font-family: 'Jost', sans-serif;
+}
+.myfontsize{
+    font-size: 2.25rem;
+}
+#brand_logo{
+    font-family: 'Abril Fatface', cursive;
+    font-size: 5vh;
+}
+.collapse navbar-collapse{
+    display: flex;
+    justify-content: space-evenly;
+}
+/* nav{
+    background-color: ;
+} */
+.display-flex{
+    display: flex;
+}
+#navbar{
+    width: 100%;
+display: flex;
+justify-content: space-evenly;
+}
+#mynav{
+    background-color: #232526;
+}
+#navbar li a:hover{
+    text-decoration: underline;
+}
+.certifications{
+    max-width: 3rem;
+}
+.jumbotron{
+    background-color:#232526 ;
+    color: white;
+
+    border-radius: unset;
+    margin-bottom: 0;
+}
+.provider{
+    display: flex;
+justify-content: center;
+}
+.history_img{
+    margin-top: 5vh;
+}
+.services-bg{
+    background-color:#232526 ;
+    border: 2px solid white;
+}
+.services-whole{
+margin-top: -5rem;
+}
+#handP :hover{
+    color: rgb(244, 196, 48) !important;
+}
+
+#pipes :hover{
+    color: white !important;
+
+}
+#tanks :hover{
+    color: green;
+}
+footer{
+    background-color: #343a40;
+    color: white;
+}
+#unit1{
+    text-decoration: underline;
+    font-size: larger;
+}
+body{
+    background-color: #232526;
+}
+#lowerfooter{
+    background-color: #232526;
+    max-height: 5vh;
+}
+#FooterQP{
+    margin-top: 1vh;
+    margin-bottom: 1vh;
+}
+#units{
+    margin-top: -14vh;
+    margin-bottom: 5vh;
+    display: flex;
+    justify-content: space-evenly;
+}
+.Contact {
+    font-size: 2.875rem;
+    line-height: 0.25rem;
+}
+.whiteC{
+    color: white;
+}
+.btn-bg{
+background-color: rgb(244, 196, 48);;
+color: black;
+}
+#sendButton:hover{
+    cursor: pointer;
+}
+#unitC1{
+    background-color: rgb(244, 196, 48);
+    border: 2px solid transparent;
+    border-radius: 7px;
+}
+#unitC2{
+    background-color: white;
+    color: black;
+    border: 2px solid transparent;
+    border-radius: 7px;
+}
+#unitC3{
+    background-color: green;
+    border: 2px solid transparent;
+    border-radius: 7px;
+}
+.curve{
+    border: 2px solid transparent;
+    border-radius: 10px;
+}
+.underline{
+    text-decoration: underline;
+}
+#handpump_images{
+    width: 90%;
+border: 2px solid transparent;
+border-radius: 10px;
+}

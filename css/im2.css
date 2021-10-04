@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost&family=Vollkorn&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Jost', sans-serif;
+}
+body{
+    background-color: black;
+}
+.headers{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 2rem;
+    text-decoration: underline;
+}
+#back-btn{
+    border: 2px solid white;
+padding: 2px 20px;
+text-decoration: none;
+}
+.im2images{
+    width: 70% !important;
+    margin: auto !important;
+    border: 2px solid transparent;
+    border-radius: 10px;
+}
+.whiteC{
+    color: white;
+}
+.center{
+    display: flex;
+    justify-content: center;
+    margin: 2rem;
+    text-decoration: underline;
+}
+#lowerfooter{
+    background-color: black;
+    position:fixed;
+    bottom:0;
+    width:100%;
+    height:60px; 
+    padding-top: 2.75vh;
+}
