@@ -37,9 +37,8 @@
         opacity: 1;
     }
 }
-
-.underline-hover-effect:hover{
-color: #0084c6;
-text-decoration: underline;
-cursor: pointer;
+.underline-hover-effect{
+    color: #0084c6;
+    text-decoration: underline;
+    cursor: pointer;
 }
