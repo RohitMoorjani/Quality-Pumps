@@ -10,6 +10,7 @@
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
     integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
   <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/animation.css">
   <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
   <title>Quality Pumps</title>
 </head>
@@ -44,7 +45,7 @@
           <a class="nav-link" href="#home">Home <span class="sr-only">(current)</span></a>
         </li>
         <li class="nav-item active">
-          <a class="nav-link" href="#">About <span class="sr-only">(current)</span></a>
+          <a class="nav-link" href="#about">About <span class="sr-only">(current)</span></a>
         </li>
         <li class="nav-item active">
           <a class="nav-link" href="#services">Services <span class="sr-only">(current)</span></a>
@@ -67,55 +68,63 @@
   </nav>
   <div id="home">
     <div class="jumbotron">
-      <h1 class="display-4" style="display: flex;justify-content: center;margin-top: -4vh;">Welcome to Quality Pumps
-      </h1>
-      <p class="lead my-4"> QUALITY PUMPS PVT. LTD. is India’s leading
+      <div class="welcome">
+        <h1 id="welcome" class="display-4" style="display: flex;justify-content: center;margin-top: -4vh;">Welcome to</h1>
+        <div class="animated_text"><h1 id="toQP" class="display-4 typing" style="display: flex;justify-content: center;margin-top: 0vh;"></h1></div>
+      </div>
+
+      <!-- <p class="lead my-4" style="display: flex;justify-content: center;"> QUALITY PUMPS PVT. LTD. is India’s leading
         manufacturer & sustainable water solutions provider. Quality Pumps Private Limited was established in 1991. We
         are specialized in manufacturing of various types of deepwell hand pump such as India Mark II, Mark III (VLOM).
         India Mark II & III with force lift attadrments. We also offer a variety of products like PVC pipes, Garden
         Pipes, Casing Pipes and Water Tanks. We are accredited with ISO 9001-2008 certificate.We are the regular award
         acheiving unit from last 25 years, We won the award for best SSI unit in India by goverment of India in 1999.
-      </p>
+      </p> -->
     </div>
   </div>
 
-  <!-- <section class="whiteC body-font">
-    <div class="container px-5 py-2 mx-auto">
-      <div class="flex flex-wrap w-full mb-20 flex-col items-center text-center">
-        <h1 class="sm:text-3xl text-2xl font-medium title-font mb-2 whiteC underline">Welcome to Quality Pumps</h1>
-        <p class="lg:w-1/2 w-full leading-relaxed whiteC">QUALITY PUMPS PVT. LTD. is India’s leading
-          manufacturer & sustainable water solutions provider. Quality Pumps Private Limited was established in 1991. We
-          are specialized in manufacturing of various types of deepwell hand pump such as India Mark II, Mark III (VLOM).
-          India Mark II & III with force lift attadrments. We also offer a variety of products like PVC pipes, Garden
-          Pipes, Casing Pipes and Water Tanks. We are accredited with ISO 9001-2008 certificate.We are the regular award
-          acheiving unit from last 25 years, We won the award for best SSI unit in India by goverment of India in 1999.</p>
-      </div>
-    </div>
-  </section> -->
+  
 
 
   
   <div class="services-whole">
     <section class="whiteC body-font">
       <div class="container px-5 py-18 ">
-        <div class="flex flex-col text-center w-full mb-20">
+        <div class="flex flex-col text-center w-full" style="margin-bottom: 2rem;">
           <!-- <h1 class="sm:text-3xl text-2xl font-medium title-font mb-4 whiteC underline myfontsize">Our History</h1>
           <p class="lg:w-2/3 mx-auto leading-relaxed text-base whiteC">Quality Pumps Private Limited is manufacturing unit for Handpumps, PVC Pipes, Casing Pipes, Water Tanks and Garden Pipes..</p> -->
-          <div class="history_img"><img src="img/main/main2.JPG" alt="" style="width: 100vw;"></div>
+          <div class="history_img"><img src="img/main/main2.JPG" class="curve" alt="" style="width: 100vw;"></div>
         </div>
       </div>
     </section>
+    <div id="about">
+      <div class="jumbotron" style="background-color: #0084c6; margin: 4rem 0; padding: 3.1rem;">
+        <div>
+          <h1 id="welcome" class="display-4 underline" style="display: flex;justify-content: center;margin-top: -4vh; font-size: 1.875rem;
+          line-height: 2.25rem;">About Us</h1>
+        </div>
+  
+        <p class="lead my-4" style="max-width: 85%;
+        margin: auto;"> QUALITY PUMPS PVT. LTD. is India’s leading
+          manufacturer & sustainable water solutions provider. Quality Pumps Private Limited was established in 1991. We
+          are specialized in manufacturing of various types of deepwell hand pump such as India Mark II, Mark III (VLOM).
+          India Mark II & III with force lift attadrments. We also offer a variety of products like PVC pipes, Garden
+          Pipes, Casing Pipes and Water Tanks. We are accredited with ISO 9001-2008 certificate.We are the regular award
+          acheiving unit from last 25 years, We won the award for best SSI unit in India by goverment of India in 1999.
+        </p>
+      </div>
+    </div>
 
     <section class="text-white-600 body-font" id="services">
-      <div class="provider"><h1 class="sm:text-3xl text-2xl font-medium title-font mb-4 whiteC underline myfontsize">Services We Provide-</h1></div>
-      <div class="container px-5 py-24 mx-auto flex flex-wrap" style="padding-top: 3rem;">
+      <div class="center"><h1 class="sm:text-3xl text-2xl font-medium title-font mb-4 whiteC underline myfontsize">Services We Provide-</h1></div>
+      <div class="container px-5  mx-auto flex flex-wrap" style="padding-top: 2rem; padding-bottom: 2rem;">
         <div class="flex relative pt-10 pb-20 sm:items-center md:w-2/3 mx-auto">
           <div class="h-full w-6 absolute inset-0 flex items-center justify-center">
             <div class="h-full w-1 bg-gray-200 pointer-events-none"></div>
           </div>
-          <div class="flex-shrink-0 w-6 h-6 rounded-full mt-10 sm:mt-0 inline-flex items-center justify-center services-bg relative z-10 title-font font-medium text-sm"></div>
+          <div class="flex-shrink-0 w-6 h-6 rounded-full mt-10 sm:mt-0 inline-flex items-center justify-center services-bg relative z-10 title-font font-medium text-sm blueC"></div>
           <div class="flex-grow md:pl-8 pl-6 flex sm:items-center items-start flex-col sm:flex-row">
-            <div class="flex-grow sm:pl-6 mt-6 sm:mt-0">
+            <div class="flex-grow sm:pl-6 mt-6 sm:mt-0 ">
              <h2 class="font-medium title-font whiteC mb-1 text-xl underline " id="handP"><a href="#handpumps">Handpumps</a></h2>
               <p class="leading-relaxed whiteC">Extra Deep Well Handpump, Force Lift Handpump, India Mark II, India Mark III, Treadle Pumps.</p>
             </div>
@@ -125,7 +134,7 @@
           <div class="h-full w-6 absolute inset-0 flex items-center justify-center">
             <div class="h-full w-1 bg-gray-200 pointer-events-none"></div>
           </div>
-          <div class="flex-shrink-0 w-6 h-6 rounded-full mt-10 sm:mt-0 inline-flex items-center justify-center services-bg relative z-10 title-font font-medium text-sm"></div>
+          <div class="flex-shrink-0 w-6 h-6 rounded-full mt-10 sm:mt-0 inline-flex items-center justify-center services-bg relative z-10 title-font font-medium text-sm blueC"></div>
           <div class="flex-grow md:pl-8 pl-6 flex sm:items-center items-start flex-col sm:flex-row">
             <div class="flex-grow sm:pl-6 mt-6 sm:mt-0">
               <h2 class="font-medium title-font whiteC mb-1 text-xl underline" id="pipes"><a href="#pipes">Pipes</a></h2>
@@ -137,7 +146,7 @@
           <div class="h-full w-6 absolute inset-0 flex items-center justify-center">
             <div class="h-full w-1 bg-gray-200 pointer-events-none"></div>
           </div>
-          <div class="flex-shrink-0 w-6 h-6 rounded-full mt-10 sm:mt-0 inline-flex items-center justify-center services-bg relative z-10 title-font font-medium text-sm"></div>
+          <div class="flex-shrink-0 w-6 h-6 rounded-full mt-10 sm:mt-0 inline-flex items-center justify-center services-bg relative z-10 title-font font-medium text-sm blueC"></div>
           <div class="flex-grow md:pl-8 pl-6 flex sm:items-center items-start flex-col sm:flex-row">
             <div class="flex-grow sm:pl-6 mt-6 sm:mt-0">
               <h2 class="font-medium title-font whiteC mb-1 text-xl underline" id="tanks"><a href="#tanks">Tanks</a></h2>
@@ -151,7 +160,7 @@
   </div>
   <div id="products">
     <section class="text-white-600 body-font">
-      <div class="provider">
+      <div class="center">
         <h1 class="sm:text-3xl text-2xl font-medium title-font mb-4 whiteC underline myfontsize">Our Products</h1>
       </div>
       <div class="container px-5 py-20 mx-auto" style="padding-top: 1rem;">
@@ -163,8 +172,8 @@
             </a>
             <div class="mt-4">
               <h3 class="text-xs tracking-widest title-font mb-1 whiteC">HANDPUMPS</h3>
-              <h2 class="title-font text-lg font-medium whiteC">INDIA MARK II</h2>
-              <a href="im2.html" class="whiteC underline"><h3>Click to view more</h3></a>
+              <a href="im2.html" class="whiteC underline"><h2 class="title-font text-lg font-medium   underline-hover-effect">INDIA MARK II</h2></a>
+              <h3>Click to view more</h3>
             </div>
           </div>
           <div class="lg:w-1/4 md:w-1/2 p-4 w-full">
@@ -174,7 +183,7 @@
             </a>
             <div class="mt-4">
               <h3 class="text-xs tracking-widest title-font mb-1 whiteC">HANDPUMPS</h3>
-              <h2 class="title-font text-lg font-medium whiteC">EXTRA DEEP WELL</h2>
+              <h2 class="title-font text-lg font-medium  whiteC underline-hover-effect">EXTRA DEEP WELL</h2>
             </div>
           </div>
           <div class="lg:w-1/4 md:w-1/2 p-4 w-full">
@@ -183,8 +192,8 @@
                 src="img/P-H/flhN.jpg">
             </a>
             <div class="mt-4 whiteC">
-              <h3 class="text-xs tracking-widest title-font mb- whiteC">HANDPUMPS</h3>
-              <h2 class="title-font text-lg font-medium whiteC">FORCE & LIFT HANDPUMP</h2>
+              <h3 class="text-xs tracking-widest title-font mb-1 whiteC">HANDPUMPS</h3>
+              <h2 class="title-font text-lg font-medium  whiteC underline-hover-effect">FORCE & LIFT HANDPUMP</h2>
             </div>
           </div>
           
@@ -195,7 +204,7 @@
             </a>
             <div class="mt-4">
               <h3 class="text-xs tracking-widest title-font mb-1 whiteC">HANDPUMPS</h3>
-              <h2 class="title-font text-lg font-medium whiteC">INDIA MARK III</h2>
+              <h2 class="title-font text-lg font-medium  whiteC underline-hover-effect">INDIA MARK III</h2>
 
             </div>
           </div>
@@ -206,7 +215,7 @@
             </a>
             <div class="mt-4">
               <h3 class="text-xs tracking-widest title-font mb-1 whiteC">HANDPUMPS</h3>
-              <h2 class="title-font text-lg font-medium whiteC">TREADLE PUMPS</h2>
+              <h2 class="title-font text-lg font-medium  whiteC underline-hover-effect">TREADLE PUMPS</h2>
 
             </div>
           </div>
@@ -217,7 +226,7 @@
             </a>
             <div class="mt-4">
               <h3 class="text-xs tracking-widest title-font mb-1 whiteC">HANDPUMPS</h3>
-              <h2 class="title-font text-lg font-medium whiteC">HANDPUMP TOOL KIT</h2>
+              <h2 class="title-font text-lg font-medium  whiteC underline-hover-effect">HANDPUMP TOOL KIT</h2>
             </div>
           </div>
           <div class="lg:w-1/4 md:w-1/2 p-4 w-full">
@@ -227,8 +236,7 @@
             </a>
             <div class="mt-4">
               <h3 class="text-xs tracking-widest title-font mb-1 whiteC">HANDPUMP SPARE PARTS</h3>
-              <h2 class="title-font text-lg font-medium whiteC">CONNECTING ROD</h2>
-              <a href="cr.html" class="whiteC underline"><h3>Click to view more</h3></a>
+              <a href="cr.html" class="whiteC underline"><h2 class="title-font text-lg font-medium  underline-hover-effect">CONNECTING ROD</h2></a>
             </div>
           </div>
           <div class="lg:w-1/4 md:w-1/2 p-4 w-full">
@@ -238,8 +246,8 @@
             </a>
             <div class="mt-4">
               <h3 class="text-xs tracking-widest title-font mb-1 whiteC">HANDPUMP SPARE PARTS</h3>
-              <h2 class="title-font text-lg font-medium whiteC">CYLINDER ASSEMBLY</h2>
-              <a href="assembly_cylinder.html" class="whiteC underline"><h3>Click to view more</h3></a>
+              <a href="assembly_cylinder.html" class="whiteC underline"><h2 class="title-font text-lg font-medium  underline-hover-effect">CYLINDER ASSEMBLY</h2></a>
+
             </div>
           </div>
           <div class="lg:w-1/4 md:w-1/2 p-4 w-full">
@@ -248,8 +256,8 @@
             </a>
             <div class="mt-4">
               <h3 class="text-xs tracking-widest title-font mb-1 whiteC">PIPES</h3>
-              <h2 class="title-font text-lg font-medium whiteC">CASING PIPES</h2>
-              <a href="cp.html" class="whiteC underline"><h3>Click to view more</h3></a>
+              <a href="cp.html" class="whiteC underline"><h2 class="title-font text-lg font-medium  underline-hover-effect">CASING PIPES</h2></a>
+
             </div>
           </div>
           <div class="lg:w-1/4 md:w-1/2 p-4 w-full">
@@ -259,8 +267,7 @@
             </a>
             <div class="mt-4">
               <h3 class="text-xs tracking-widest title-font mb-1 whiteC">PIPES</h3>
-              <h2 class="title-font text-lg font-medium whiteC">GARDEN PIPES</h2>
-              <a href="gp.html" class="whiteC underline"><h3>Click to view more</h3></a>
+              <a href="gp.html" class="whiteC underline"><h2 class="title-font text-lg font-medium  underline-hover-effect">GARDEN PIPES</h2></a>
             </div>
           </div>
           <div class="lg:w-1/4 md:w-1/2 p-4 w-full">
@@ -270,8 +277,7 @@
             </a>
             <div class="mt-4">
               <h3 class="text-xs tracking-widest title-font mb-1 whiteC">TANKS</h3>
-              <h2 class="title-font text-lg font-medium whiteC">WATER TANKS</h2>
-              <a href="wt.html" class="whiteC underline"><h3>Click to view more</h3></a>
+              <a href="wt.html"><h2 class="title-font text-lg font-m whiteC underline-hover-effect underline">WATER TANKS</h2></a>
             </div>
           </div>
         </div>
@@ -279,11 +285,11 @@
     </section>
   </div>
 
-  <div id="contact">
+  <div id="contact" class="curve">
     <section class="body-font relative">
-      <div class="container px-5 py-24 mx-auto">
+      <div class="container px-5  mx-auto" style="padding: 2rem;">
         <div class="flex flex-col text-center w-full mb-12">
-          <h1 class="Contact whiteC underline myfontsize" style="font-size: 2.25rem">Contact Us</h1>
+          <h1 class="Contact whiteC underline myfontsize" style="font-size: 2.25rem; padding-top: 2rem; padding-bottom: 2rem;">Contact Us</h1>
         </div>
         <div class="lg:w-1/2 md:w-2/3 mx-auto">
           <div class="flex flex-wrap -m-2">
@@ -317,7 +323,8 @@
               </div>
             </div>
             <div class="p-2 w-full">
-              <input type="button" class="flex mx-auto  btn-bg border-0 py-2 px-8 focus:outline-none rounded text-lg"
+
+              <input type="button" class="flex mx-auto btn-bg  py-2 px-8 focus:outline-none rounded text-lg "
                 onclick="sendmail();" id="sendButton" value="Send Message">
             </div>
             </form>
@@ -367,6 +374,7 @@
       }
     }
   </script>
+  <script src="js/type_animation.js"></script>
 
 </body>
 
@@ -380,8 +388,8 @@
         </a>
       </div> -->
   </div>
-  <div id="units" class="flex-grow flex flex-wrap  -mb-10 md:mt-0 mt-10 md:text-left text-center">
-    <div class="lg:w-1/4 md:w-1/2 w-full px-4">
+  <div id="units" class="flex-grow flex flex-wrap  -mb-10 md:mt-0 mt-10 md:text-left text-center ">
+    <div class="lg:w-1/4 md:w-1/2 w-full px-4 blueC units">
       <h2 class="title-font font-medium text-white tracking-widest text-sm mb-3" id="unit1">Unit-1</h2>
       <p  id="unitC1">
         QUALITY PUMPS PRIVATE LIMITED <br>
@@ -392,7 +400,7 @@
         Email   : qualitypumps@rediffmail.com
       </p>
     </div>
-    <div class="lg:w-1/4 md:w-1/2 w-full px-4">
+    <div class="lg:w-1/4 md:w-1/2 w-full px-4 blueC units">
       <h2 class="title-font font-medium text-white tracking-widest text-sm mb-3" id="unit1">Unit-2</h2>
       <p id="unitC2">
         QUALITY PUMPS PRIVATE LIMITED <br>
@@ -403,7 +411,7 @@
         Email   : qualitypumps@rediffmail.com
       </p>
     </div>
-    <div class="lg:w-1/4 md:w-1/2 w-full px-4">
+    <div class="lg:w-1/4 md:w-1/2 w-full px-4 blueC units">
       <h2 class="title-font font-medium text-white tracking-widest text-sm mb-3" id="unit1">Unit-3</h2>
       <p id="unitC3">
         QUALITY PUMPS PRIVATE LIMITED <br>
@@ -417,8 +425,8 @@
     </div>
   </div>
   </div>
-  <div id="lowerfooter">
-    <div class="container mx-auto py-4 px-5 flex flex-wrap flex-col sm:flex-row">
+  <div id="lowerfooter" class="curve">
+    <div class="container mx-auto py-4 px-5 flex flex-wrap flex-col sm:flex-row center">
       <p class="text-white-500 text-sm text-center sm:text-left">© 2021 Quality Pumps Pvt. Ltd. — All rights reserved.
       </p>
     </div>

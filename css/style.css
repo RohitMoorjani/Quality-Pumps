@@ -4,12 +4,19 @@
     margin: 0;padding: 0;
     font-family: 'Jost', sans-serif;
 }
+.blueC{
+    background-color: #0084c6 !important
+}
+.blueFC{
+    color:#0084c6
+}
 .myfontsize{
     font-size: 2.25rem;
 }
 #brand_logo{
     font-family: 'Abril Fatface', cursive;
     font-size: 5vh;
+
 }
 .collapse navbar-collapse{
     display: flex;
@@ -26,29 +33,31 @@
 display: flex;
 justify-content: space-evenly;
 }
+
 #mynav{
-    background-color: #232526;
+/* background-color: #58807a; */
+background-color: #0084c6
 }
+
 #navbar li a:hover{
     text-decoration: underline;
 }
 .certifications{
     max-width: 3rem;
-    max-height: 3rem;
 }
 .jumbotron{
-    background-color:#232526 ;
+    background-color: #232526;
     color: white;
-
-    border-radius: unset;
-    margin-bottom: 0;
+    padding: 2rem 1rem;
+    
+    
 }
-.provider{
+.center{
     display: flex;
 justify-content: center;
 }
 .history_img{
-    margin-top: 5vh;
+    padding-top: 2rem;
 }
 .services-bg{
     background-color:#232526 ;
@@ -57,31 +66,33 @@ justify-content: center;
 .services-whole{
 margin-top: -5rem;
 }
-#handP :hover{
-    color: rgb(244, 196, 48) !important;
+#handP {
+    color:#0084c6 !important;
 }
-
-#pipes :hover{
-    color: white !important;
+#pipes{
+    color:#0084c6 !important;
 
 }
-#tanks :hover{
-    color: green;
+#tanks{
+    color:#0084c6 !important;
+}
+.serv:hover{
+    color: white;
 }
 footer{
-    background-color: #343a40;
+    background-color: #232526;
     color: white;
 }
 #unit1{
     text-decoration: underline;
     font-size: larger;
+    margin-top: 1rem;
 }
 body{
     background-color: #232526;
 }
 #lowerfooter{
-    background-color: #232526;
-    max-height: 5vh;
+    background-color:#0084c6 ;
 }
 #FooterQP{
     margin-top: 1vh;
@@ -97,32 +108,30 @@ body{
     font-size: 2.875rem;
     line-height: 0.25rem;
 }
+#contact{
+    background-color: #0084c6;
+}
 .whiteC{
     color: white;
 }
 .btn-bg{
-background-color: rgb(244, 196, 48);;
-color: black;
+color: white
+}
+#sendButton{
+    background-color: #232526;
 }
 #sendButton:hover{
     cursor: pointer;
+    background-color: #0084c6;
+    border: 2px solid #232526;
+
 }
-#unitC1{
-    background-color: rgb(244, 196, 48);
-    border: 2px solid transparent;
-    border-radius: 7px;
-}
-#unitC2{
-    background-color: white;
-    color: black;
-    border: 2px solid transparent;
-    border-radius: 7px;
-}
-#unitC3{
-    background-color: green;
-    border: 2px solid transparent;
-    border-radius: 7px;
-}
+.units{
+    margin: 2vh;
+    border: 1px solid transparent;
+    border-radius: 10px;
+} 
+
 .curve{
     border: 2px solid transparent;
     border-radius: 10px;
@@ -132,6 +141,9 @@ color: black;
 }
 #handpump_images{
     width: 90%;
-border: 2px solid transparent;
+border: 2px solid #0070a8;
 border-radius: 10px;
+}
+#upperfooter{
+    padding-bottom: 6rem;
 }
