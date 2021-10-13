@@ -5,18 +5,24 @@
     font-family: 'Jost', sans-serif;
 }
 body{
-    background-color: black;
+background-color: #232526;
 }
 .headers{
     display: flex;
     justify-content: space-evenly;
     margin: 2rem;
     text-decoration: underline;
+
+
+    margin-top: 0;
+    margin-left: 0;
+    margin-right: 0;
+    padding: 2rem;
 }
 #back-btn{
-    border: 2px solid white;
-padding: 2px 20px;
-text-decoration: none;
+    padding: 2px 20px;
+    text-decoration: none;
+    background-color: #0084c6;
 }
 .im2images{
     width: 70% !important;
@@ -34,10 +40,14 @@ text-decoration: none;
     text-decoration: underline;
 }
 #lowerfooter{
-    background-color: black;
+    background-color:#0084c6 ;
     position:fixed;
     bottom:0;
     width:100%;
-    height:60px; 
-    padding-top: 2.75vh;
+
+    padding-top: 2.3vh;
+}
+.curve{
+    border: 2px solid transparent;
+    border-radius: 10px;
 }
