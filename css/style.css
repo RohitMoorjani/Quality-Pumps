@@ -47,7 +47,8 @@ justify-content: space-evenly;
 
 #mynav{
 /* background-color: #58807a; */
-background-color: #0084c6
+background-color: #0084c6;
+max-height: 12vh;
 }
 
 #navbar li a:hover{
@@ -55,6 +56,7 @@ background-color: #0084c6
 }
 .certifications{
     max-width: 3rem;
+    max-height: 10vh;
 }
 .jumbotron{
     background-color: #232526;
