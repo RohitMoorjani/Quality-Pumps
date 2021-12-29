@@ -25,10 +25,12 @@ background-color: #232526;
     background-color: #0084c6;
 }
 .im2images{
-    width: 70% !important;
+    /* width: 40% !important; */
+    max-width: 79vw;
     margin: auto !important;
     border: 2px solid transparent;
     border-radius: 10px;
+    max-height: 33rem;
 }
 .whiteC{
     color: white;
